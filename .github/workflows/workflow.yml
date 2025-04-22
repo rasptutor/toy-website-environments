@@ -11,8 +11,6 @@ permissions:
   id-token: write
   contents: read
 
-env:  
-
 jobs:
   lint:
     uses: ./.github/workflows/lint.yml
